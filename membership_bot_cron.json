@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "membership_bot",
+      "script": "python",
+      "args": "membership_bot.py --gdrive_folder_id \"1A8JLRUSrjvl9d5xChtRBi9HqgOuqalPp\"",
+      "cron_restart": "0 23 * * *",
+      "watch": false,
+      "autorestart": true,
+      "output": "./logs/membership_bot_output.log",
+      "error": "./logs/membership_bot_error.log"
+    }
+  ]
+}

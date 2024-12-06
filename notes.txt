@@ -1,0 +1,4 @@
+python membership_bot.py --debug --gdrive_folder_id "" --venue "london"
+
+python membership_bot.py --gdrive_folder_id "1A8JLRUSrjvl9d5xChtRBi9HqgOuqalPp" --debug
+
